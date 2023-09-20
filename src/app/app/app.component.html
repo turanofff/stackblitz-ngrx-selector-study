@@ -1,0 +1,17 @@
+<h1>Welcome to NgRx</h1>
+
+<h2>Current count: {{ count$ | async }}</h2>
+
+<h2>Combined reflects count: {{ flag$ | async }}</h2>
+
+<h2>Combined: {{ combo$ | async }}</h2>
+
+<h2>Memo: {{ memo$ | async }}</h2>
+
+<button (click)="increase()">Increase</button>
+&nbsp;
+<button (click)="decrease()">Decrease</button>
+&nbsp;
+<button (click)="toggleFlag()">Toggle Flag</button>
+&nbsp;
+<button (click)="updateMemo()">Update memo</button>
